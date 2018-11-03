@@ -1,0 +1,23 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Unit testing",
+  "main": "index.js",
+  "repository": "https://github.com/fabianvelizok/testing.git",
+  "author": "Fabián Veliz <velizfabianhoracio@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "unit testing"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^23.6.0"
+  }
+}
