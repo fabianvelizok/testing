@@ -1,4 +1,4 @@
-import { add, divide, multiply, subtract } from '../maths';
+import { add, divide, multiply, subtract } from '../src/maths';
 
 describe('Maths', () => {
   test('Adds 2 + 3 should be 5', () => {
