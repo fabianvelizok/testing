@@ -1,6 +1,7 @@
-import { getFruits } from '../src/arrays';
+import { getColors, getFruits } from '../src/arrays';
 
 describe('Arrays', () => {
+  const colors = getColors();
   const fruits = getFruits();
 
   test('fruits contain an apple', () => {
@@ -11,5 +12,8 @@ describe('Arrays', () => {
   });
   test('fruits have 3 items', () => {
     expect(fruits).toHaveLength(3);
+  });
+  test('colors have 2 items', () => {
+    expect(colors).toHaveLength(2);
   });
 });
