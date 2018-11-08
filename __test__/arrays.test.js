@@ -1,6 +1,8 @@
-import { fruits } from '../src/arrays';
+import { getFruits } from '../src/arrays';
 
 describe('Arrays', () => {
+  const fruits = getFruits();
+
   test('fruits contain an apple', () => {
     expect(fruits).toContain('apple');
   });
