@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Person snapshot should not change 1`] = `
+Object {
+  "gender": "Male",
+  "id": 1,
+  "lastName": "Veliz",
+  "name": "Fabian",
+}
+`;
+
+exports[`Snapshots RandomPerson snapshot should change 1`] = `
+Object {
+  "gender": "Female",
+  "id": Any<Number>,
+  "lastName": Any<String>,
+  "name": "Mary",
+}
+`;
